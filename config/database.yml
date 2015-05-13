@@ -1,0 +1,44 @@
+# Default setup is given for MySQL with ruby1.9. If you're running Redmine
+# with MySQL and ruby1.8, replace the adapter name with `mysql`.
+# Examples for PostgreSQL, SQLite3 and SQL Server can be found at the end.
+# Line indentation must be 2 spaces (no tabs).
+
+#development:
+#  adapter:  mysql2
+#  database: redmine
+#  host:     192.168.105.145
+#  username: redmine
+#  password: remproteus1
+#  encoding: utf8
+
+#test:
+#  adapter:  mysql2
+#  database: redmine
+#  host:     192.168.105.145
+#  username: redmine
+#  password: remproteus1
+#  encoding: utf8
+
+production:
+  adapter: sqlserver
+  database: redmine
+  host: 192.168.104.140
+  username: redmine_user
+  password: smgsqlr3d
+ 
+  # adapter:  postgresql
+  # encoding: unicode
+  # pool:     20
+  # database: redmine
+  # username: postgres
+  # password: r3dh4t01!
+  # host:     192.168.105.163
+  # port:     5432
+
+# SQL Server configuration example
+#production:
+#  adapter: sqlserver
+#  database: redmine
+#  host: localhost
+#  username: jenkins
+#  password: jenkins

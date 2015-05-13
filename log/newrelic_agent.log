@@ -1,0 +1,140 @@
+# Logfile created on 2015-05-12 16:56:31 -0300 by logger.rb/41954
+[05/12/15 16:56:31 -0300 srv-redmine01 (24366)] INFO : Starting the New Relic agent in "production" environment.
+[05/12/15 16:56:31 -0300 srv-redmine01 (24366)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/12/15 16:56:31 -0300 srv-redmine01 (24366)] INFO : Reading configuration from config/newrelic.yml (/usr/local/redmine)
+[05/12/15 16:56:31 -0300 srv-redmine01 (24366)] INFO : Environment: production
+[05/12/15 16:56:31 -0300 srv-redmine01 (24366)] INFO : No known dispatcher detected.
+[05/12/15 16:56:31 -0300 srv-redmine01 (24366)] INFO : Application: Redmine
+[05/12/15 16:56:31 -0300 srv-redmine01 (24366)] INFO : Installing ActiveRecord instrumentation
+[05/12/15 16:56:31 -0300 srv-redmine01 (24366)] INFO : Installing Net instrumentation
+[05/12/15 16:56:31 -0300 srv-redmine01 (24366)] INFO : Installing deferred Rack instrumentation
+[05/12/15 16:56:31 -0300 srv-redmine01 (24366)] INFO : Installing Rack::Builder middleware instrumentation
+[05/12/15 16:56:31 -0300 srv-redmine01 (24366)] INFO : Installing Rails 3+ middleware instrumentation
+[05/12/15 16:56:31 -0300 srv-redmine01 (24366)] INFO : Installing Rails 3 Controller instrumentation
+[05/12/15 16:56:31 -0300 srv-redmine01 (24366)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[05/12/15 16:56:31 -0300 srv-redmine01 (24366)] INFO : Installing Rails 3 Error instrumentation
+[05/12/15 16:56:31 -0300 srv-redmine01 (24366)] INFO : Finished instrumentation
+[05/12/15 16:56:33 -0300 srv-redmine01 (24366)] WARN : Agent is configured to send raw SQL to the service
+[05/12/15 16:56:33 -0300 srv-redmine01 (24366)] INFO : Reporting to: https://rpm.newrelic.com/accounts/301223/applications/3017844
+[05/12/15 16:56:43 -0300 srv-redmine01 (24366)] INFO : Doing deferred dependency-detection before Rack startup
+[05/12/15 16:57:19 -0300 srv-redmine01 (24381)] WARN : Ignoring addition of cpu because it is already registered.
+[05/12/15 16:57:19 -0300 srv-redmine01 (24381)] WARN : Ignoring addition of memory because it is already registered.
+[05/12/15 16:57:19 -0300 srv-redmine01 (24381)] WARN : Ignoring addition of vm because it is already registered.
+[05/12/15 16:57:20 -0300 srv-redmine01 (24387)] WARN : Ignoring addition of cpu because it is already registered.
+[05/12/15 16:57:20 -0300 srv-redmine01 (24387)] WARN : Ignoring addition of memory because it is already registered.
+[05/12/15 16:57:20 -0300 srv-redmine01 (24387)] WARN : Ignoring addition of vm because it is already registered.
+[05/12/15 16:57:21 -0300 srv-redmine01 (24384)] WARN : Ignoring addition of cpu because it is already registered.
+[05/12/15 16:57:21 -0300 srv-redmine01 (24384)] WARN : Ignoring addition of memory because it is already registered.
+[05/12/15 16:57:21 -0300 srv-redmine01 (24384)] WARN : Ignoring addition of vm because it is already registered.
+[05/12/15 16:57:21 -0300 srv-redmine01 (24381)] INFO : Reporting to: https://rpm.newrelic.com/accounts/301223/applications/3017844
+[05/12/15 16:57:22 -0300 srv-redmine01 (24387)] INFO : Reporting to: https://rpm.newrelic.com/accounts/301223/applications/3017844
+[05/12/15 16:57:23 -0300 srv-redmine01 (24384)] INFO : Reporting to: https://rpm.newrelic.com/accounts/301223/applications/3017844
+[05/12/15 16:58:00 -0300 srv-redmine01 (24366)] INFO : Starting Agent shutdown
+[05/12/15 16:58:22 -0300 srv-redmine01 (24412)] INFO : Starting the New Relic agent in "production" environment.
+[05/12/15 16:58:22 -0300 srv-redmine01 (24412)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/12/15 16:58:22 -0300 srv-redmine01 (24412)] INFO : Reading configuration from config/newrelic.yml (/usr/local/redmine)
+[05/12/15 16:58:22 -0300 srv-redmine01 (24412)] INFO : Environment: production
+[05/12/15 16:58:22 -0300 srv-redmine01 (24412)] INFO : No known dispatcher detected.
+[05/12/15 16:58:22 -0300 srv-redmine01 (24412)] INFO : Application: Redmine
+[05/12/15 16:58:22 -0300 srv-redmine01 (24412)] INFO : Installing ActiveRecord instrumentation
+[05/12/15 16:58:22 -0300 srv-redmine01 (24412)] INFO : Installing Net instrumentation
+[05/12/15 16:58:22 -0300 srv-redmine01 (24412)] INFO : Installing deferred Rack instrumentation
+[05/12/15 16:58:22 -0300 srv-redmine01 (24412)] INFO : Installing Rack::Builder middleware instrumentation
+[05/12/15 16:58:22 -0300 srv-redmine01 (24412)] INFO : Installing Rails 3+ middleware instrumentation
+[05/12/15 16:58:22 -0300 srv-redmine01 (24412)] INFO : Installing Rails 3 Controller instrumentation
+[05/12/15 16:58:22 -0300 srv-redmine01 (24412)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[05/12/15 16:58:22 -0300 srv-redmine01 (24412)] INFO : Installing Rails 3 Error instrumentation
+[05/12/15 16:58:22 -0300 srv-redmine01 (24412)] INFO : Finished instrumentation
+[05/12/15 16:58:23 -0300 srv-redmine01 (24412)] WARN : Agent is configured to send raw SQL to the service
+[05/12/15 16:58:24 -0300 srv-redmine01 (24412)] INFO : Reporting to: https://rpm.newrelic.com/accounts/301223/applications/3017844
+[05/12/15 16:58:39 -0300 srv-redmine01 (24412)] INFO : Starting Agent shutdown
+[05/12/15 16:59:12 -0300 srv-redmine01 (24429)] INFO : Starting the New Relic agent in "production" environment.
+[05/12/15 16:59:12 -0300 srv-redmine01 (24429)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/12/15 16:59:12 -0300 srv-redmine01 (24429)] INFO : Reading configuration from config/newrelic.yml (/usr/local/redmine)
+[05/12/15 16:59:12 -0300 srv-redmine01 (24429)] INFO : Environment: production
+[05/12/15 16:59:12 -0300 srv-redmine01 (24429)] INFO : No known dispatcher detected.
+[05/12/15 16:59:12 -0300 srv-redmine01 (24429)] INFO : Application: Redmine
+[05/12/15 16:59:12 -0300 srv-redmine01 (24429)] INFO : Installing ActiveRecord instrumentation
+[05/12/15 16:59:12 -0300 srv-redmine01 (24429)] INFO : Installing Net instrumentation
+[05/12/15 16:59:12 -0300 srv-redmine01 (24429)] INFO : Installing deferred Rack instrumentation
+[05/12/15 16:59:12 -0300 srv-redmine01 (24429)] INFO : Installing Rack::Builder middleware instrumentation
+[05/12/15 16:59:12 -0300 srv-redmine01 (24429)] INFO : Installing Rails 3+ middleware instrumentation
+[05/12/15 16:59:12 -0300 srv-redmine01 (24429)] INFO : Installing Rails 3 Controller instrumentation
+[05/12/15 16:59:13 -0300 srv-redmine01 (24429)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[05/12/15 16:59:13 -0300 srv-redmine01 (24429)] INFO : Installing Rails 3 Error instrumentation
+[05/12/15 16:59:13 -0300 srv-redmine01 (24429)] INFO : Finished instrumentation
+[05/12/15 16:59:15 -0300 srv-redmine01 (24429)] WARN : Agent is configured to send raw SQL to the service
+[05/12/15 16:59:15 -0300 srv-redmine01 (24429)] INFO : Reporting to: https://rpm.newrelic.com/accounts/301223/applications/3017844
+[05/12/15 16:59:24 -0300 srv-redmine01 (24429)] INFO : Starting Agent shutdown
+[05/12/15 17:00:29 -0300 srv-redmine01 (24454)] INFO : Starting the New Relic agent in "production" environment.
+[05/12/15 17:00:29 -0300 srv-redmine01 (24454)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/12/15 17:00:29 -0300 srv-redmine01 (24454)] INFO : Reading configuration from config/newrelic.yml (/usr/local/redmine)
+[05/12/15 17:00:29 -0300 srv-redmine01 (24454)] INFO : Environment: production
+[05/12/15 17:00:29 -0300 srv-redmine01 (24454)] INFO : No known dispatcher detected.
+[05/12/15 17:00:29 -0300 srv-redmine01 (24454)] INFO : Application: Redmine
+[05/12/15 17:00:29 -0300 srv-redmine01 (24454)] INFO : Installing ActiveRecord instrumentation
+[05/12/15 17:00:29 -0300 srv-redmine01 (24454)] INFO : Installing Net instrumentation
+[05/12/15 17:00:29 -0300 srv-redmine01 (24454)] INFO : Installing deferred Rack instrumentation
+[05/12/15 17:00:29 -0300 srv-redmine01 (24454)] INFO : Installing Rack::Builder middleware instrumentation
+[05/12/15 17:00:29 -0300 srv-redmine01 (24454)] INFO : Installing Rails 3+ middleware instrumentation
+[05/12/15 17:00:29 -0300 srv-redmine01 (24454)] INFO : Installing Rails 3 Controller instrumentation
+[05/12/15 17:00:29 -0300 srv-redmine01 (24454)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[05/12/15 17:00:29 -0300 srv-redmine01 (24454)] INFO : Installing Rails 3 Error instrumentation
+[05/12/15 17:00:29 -0300 srv-redmine01 (24454)] INFO : Finished instrumentation
+[05/12/15 17:00:31 -0300 srv-redmine01 (24454)] WARN : Agent is configured to send raw SQL to the service
+[05/12/15 17:00:31 -0300 srv-redmine01 (24454)] INFO : Reporting to: https://rpm.newrelic.com/accounts/301223/applications/3017844
+[05/12/15 17:00:42 -0300 srv-redmine01 (24454)] INFO : Starting Agent shutdown
+[05/12/15 17:04:14 -0300 srv-redmine01 (24593)] INFO : Starting the New Relic agent in "production" environment.
+[05/12/15 17:04:14 -0300 srv-redmine01 (24593)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/12/15 17:04:14 -0300 srv-redmine01 (24593)] INFO : Reading configuration from config/newrelic.yml (/usr/local/redmine)
+[05/12/15 17:04:14 -0300 srv-redmine01 (24593)] INFO : Environment: production
+[05/12/15 17:04:14 -0300 srv-redmine01 (24593)] INFO : No known dispatcher detected.
+[05/12/15 17:04:14 -0300 srv-redmine01 (24593)] INFO : Application: Redmine
+[05/12/15 17:04:14 -0300 srv-redmine01 (24593)] INFO : Installing ActiveRecord instrumentation
+[05/12/15 17:04:14 -0300 srv-redmine01 (24593)] INFO : Installing Net instrumentation
+[05/12/15 17:04:14 -0300 srv-redmine01 (24593)] INFO : Installing deferred Rack instrumentation
+[05/12/15 17:04:14 -0300 srv-redmine01 (24593)] INFO : Installing Rack::Builder middleware instrumentation
+[05/12/15 17:04:14 -0300 srv-redmine01 (24593)] INFO : Installing Rails 3+ middleware instrumentation
+[05/12/15 17:04:14 -0300 srv-redmine01 (24593)] INFO : Installing Rails 3 Controller instrumentation
+[05/12/15 17:04:14 -0300 srv-redmine01 (24593)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[05/12/15 17:04:14 -0300 srv-redmine01 (24593)] INFO : Installing Rails 3 Error instrumentation
+[05/12/15 17:04:14 -0300 srv-redmine01 (24593)] INFO : Finished instrumentation
+[05/12/15 17:04:16 -0300 srv-redmine01 (24593)] WARN : Agent is configured to send raw SQL to the service
+[05/12/15 17:04:16 -0300 srv-redmine01 (24593)] INFO : Reporting to: https://rpm.newrelic.com/accounts/301223/applications/3017844
+[05/12/15 17:04:28 -0300 srv-redmine01 (24593)] INFO : Starting Agent shutdown
+[05/12/15 17:07:33 -0300 srv-redmine01 (24638)] INFO : Starting the New Relic agent in "production" environment.
+[05/12/15 17:07:33 -0300 srv-redmine01 (24638)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/12/15 17:07:33 -0300 srv-redmine01 (24638)] INFO : Reading configuration from config/newrelic.yml (/usr/local/redmine)
+[05/12/15 17:07:33 -0300 srv-redmine01 (24638)] INFO : Environment: production
+[05/12/15 17:07:33 -0300 srv-redmine01 (24638)] INFO : No known dispatcher detected.
+[05/12/15 17:07:33 -0300 srv-redmine01 (24638)] INFO : Application: Redmine
+[05/12/15 17:07:33 -0300 srv-redmine01 (24638)] INFO : Installing ActiveRecord instrumentation
+[05/12/15 17:07:33 -0300 srv-redmine01 (24638)] INFO : Installing Net instrumentation
+[05/12/15 17:07:33 -0300 srv-redmine01 (24638)] INFO : Installing deferred Rack instrumentation
+[05/12/15 17:07:33 -0300 srv-redmine01 (24638)] INFO : Installing Rack::Builder middleware instrumentation
+[05/12/15 17:07:33 -0300 srv-redmine01 (24638)] INFO : Installing Rails 3+ middleware instrumentation
+[05/12/15 17:07:33 -0300 srv-redmine01 (24638)] INFO : Installing Rails 3 Controller instrumentation
+[05/12/15 17:07:33 -0300 srv-redmine01 (24638)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[05/12/15 17:07:33 -0300 srv-redmine01 (24638)] INFO : Installing Rails 3 Error instrumentation
+[05/12/15 17:07:33 -0300 srv-redmine01 (24638)] INFO : Finished instrumentation
+[05/12/15 17:07:35 -0300 srv-redmine01 (24638)] WARN : Agent is configured to send raw SQL to the service
+[05/12/15 17:07:35 -0300 srv-redmine01 (24638)] INFO : Reporting to: https://rpm.newrelic.com/accounts/301223/applications/3017844
+[05/12/15 17:07:46 -0300 srv-redmine01 (24638)] INFO : Starting Agent shutdown
+[05/13/15 10:54:15 -0300 srv-redmine01 (5177)] INFO : Starting the New Relic agent in "production" environment.
+[05/13/15 10:54:15 -0300 srv-redmine01 (5177)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/13/15 10:54:15 -0300 srv-redmine01 (5177)] INFO : Reading configuration from config/newrelic.yml (/usr/local/redmine)
+[05/13/15 10:54:15 -0300 srv-redmine01 (5177)] INFO : Environment: production
+[05/13/15 10:54:15 -0300 srv-redmine01 (5177)] INFO : No known dispatcher detected.
+[05/13/15 10:54:15 -0300 srv-redmine01 (5177)] INFO : Application: Redmine
+[05/13/15 10:54:15 -0300 srv-redmine01 (5177)] INFO : Installing ActiveRecord instrumentation
+[05/13/15 10:54:15 -0300 srv-redmine01 (5177)] INFO : Installing Net instrumentation
+[05/13/15 10:54:15 -0300 srv-redmine01 (5177)] INFO : Installing deferred Rack instrumentation
+[05/13/15 10:54:15 -0300 srv-redmine01 (5177)] INFO : Installing Rack::Builder middleware instrumentation
+[05/13/15 10:54:15 -0300 srv-redmine01 (5177)] INFO : Installing Rails 3+ middleware instrumentation
+[05/13/15 10:54:15 -0300 srv-redmine01 (5177)] INFO : Installing Rails 3 Controller instrumentation
+[05/13/15 10:54:15 -0300 srv-redmine01 (5177)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[05/13/15 10:54:15 -0300 srv-redmine01 (5177)] INFO : Installing Rails 3 Error instrumentation
+[05/13/15 10:54:15 -0300 srv-redmine01 (5177)] INFO : Finished instrumentation
+[05/13/15 10:54:17 -0300 srv-redmine01 (5177)] WARN : Agent is configured to send raw SQL to the service
+[05/13/15 10:54:17 -0300 srv-redmine01 (5177)] INFO : Reporting to: https://rpm.newrelic.com/accounts/301223/applications/3017844
+[05/13/15 10:54:31 -0300 srv-redmine01 (5177)] INFO : Starting Agent shutdown
